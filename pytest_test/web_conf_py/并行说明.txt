@@ -1,0 +1,4 @@
+正常右键web_conf_py这个工程，open in terminal 通过cmd直接执行pytest ，用时7s
+
+安装pytest-xdist，设置并行运行数量，用时3s，缩短运行时间
+pytest -n 3

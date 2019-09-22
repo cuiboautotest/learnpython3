@@ -1,0 +1,44 @@
+test_add (test_mathfunc.TestMathFunc)
+Test method add(a, b) ... ok
+test_minus (test_mathfunc.TestMathFunc)
+Test method minus(a, b) ... ok
+test_divide (test_mathfunc.TestMathFunc)
+Test method divide(a, b) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK
+ERROR
+
+======================================================================
+ERROR: setUpClass (test_mathfunc.TestMathFunc)
+----------------------------------------------------------------------
+TypeError: setUpClass() missing 1 required positional argument: 'cls'
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+FAILED (errors=1)
+ERROR
+
+======================================================================
+ERROR: setUpClass (test_mathfunc.TestMathFunc)
+----------------------------------------------------------------------
+TypeError: setUpClass() missing 1 required positional argument: 'cls'
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+FAILED (errors=1)
+ERROR
+
+======================================================================
+ERROR: setUpClass (test_mathfunc.TestMathFunc)
+----------------------------------------------------------------------
+TypeError: setUpClass() missing 1 required positional argument: 'cls'
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+FAILED (errors=1)
