@@ -1,0 +1,114 @@
+- gid: 0
+  layout: '{"alarm_total_count": {"h": 3, "param": {"limit": 0}, "w": 2, "y": 0, "x": 0,
+    "desc": ""}, "alarm_focus": {"h": 3, "param": {"limit": 0}, "w": 2, "y": 3, "x":
+    0, "desc": ""}, "alarm_type_trend": {"h": 3, "param": {"limit": 10}, "w":
+    2, "y": 6, "x": 0, "desc": ""}, "alarm_type_pie": {"h": 3, "param": {"limit":
+    0}, "w": 2, "y": 9, "x": 0, "desc": ""}, "alarm_type_count": {"h": 3, "param": {"limit":
+    10}, "w": 2, "y": 12, "x": 0, "desc": ""}, "alarm_level_trend": {"h": 3, "param":
+    {"limit": 0}, "w": 2, "y": 15, "x": 0, "desc": ""}, "threat_type_pie": {"h": 3,
+    "param": {"limit": 0}, "w": 2, "y": 18, "x": 0, "desc": ""}, "threat_level_trend": {"h":
+    3, "param": {"limit": 10}, "w": 2, "y": 21, "x": 0, "desc": ""}, "alarm_level_pie":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 24, "x": 0, "desc": ""}, "web_attack_count":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 27, "x": 0, "desc": ""}, "apt_hit_rank":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 30, "x": 0, "desc": ""}, "alarm_accum":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 33, "x": 0, "desc": ""}, "alarm_attack_stage":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 36, "x": 0, "desc": ""}, "ids_alarm_count":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 39, "x": 0, "desc": ""}, "intranet_event_count":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 42, "x": 0, "desc": ""}}'
+  name: 告警统计
+  path: pre_alarm.rptdesign
+  source: 1
+  type: 1
+
+- gid: 0
+  layout: '{"victim_asset_pie": {"h": 3, "param": {"limit": 0}, "w": 2, "y":
+    0, "x": 0, "desc": ""}, "victim_asset_trend": {"h": 3, "param": {"limit": 0},
+    "w": 2, "y": 3, "x": 0, "desc": ""}, "host_total_count": {"h": 3, "param":
+    {"limit": 0}, "w": 2, "y": 6, "x": 0, "desc": ""}, "top_victimhost": {"h":
+    3, "param": {"limit": 0}, "w": 2, "y": 9, "x": 0, "desc": ""}}'
+  name: 受害资产统计
+  path: pre_asset.rptdesign
+  source: 1
+  type: 2
+
+- gid: 0
+  layout: '{"license_info": {"h": 3, "param": {"limit": 0}, "w": 2, "y": 0,
+    "x": 0, "desc": ""}, "server_info": {"h": 3, "param": {"limit": 0}, "w":
+    2, "y": 3, "x": 0, "desc": ""}, "log_count": {"h": 3, "param": {"limit":
+    0}, "w": 2, "y": 6, "x": 0, "desc": ""}, "cluster_state": {"h": 3, "param":
+    {"limit": 0}, "w": 2, "y": 9, "x": 0, "desc": ""}, "device_info":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 12, "x": 0, "desc": ""}, "rule_info":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 15, "x": 0, "desc": ""}}'
+  name: 系统维护
+  path: pre_system.rptdesign
+  source: 1
+  type: 3
+
+- gid: 0
+  layout: '{"top_attacksrc": {"h": 3, "param": {"limit": 0}, "w": 2, "y": 0, 
+    "x": 0, "desc": ""}}'
+  name: 攻击者统计
+  path: pre_attack.rptdesign
+  source: 1
+  type: 4
+
+- gid: 0
+  layout: '{"alarm_total_count": {"h": 3, "param": {"limit": 0}, "w": 2, "y":
+    0, "x": 0, "desc": ""}, "alarm_focus": {"h": 3, "param": {"limit": 10},
+    "w": 2, "y": 3, "x": 0, "desc": ""}, "alarm_type_trend": {"h": 3, "param":
+    {"limit": 0}, "w": 2, "y": 6, "x": 0, "desc": ""}, "alarm_type_pie": {"h":
+    3, "param": {"limit": 0}, "w": 2, "y": 9, "x": 0, "desc": ""}, "alarm_type_count":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 12, "x": 0, "desc": ""}, "alarm_level_trend":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 15, "x": 0, "desc": ""}, "threat_type_pie":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 18, "x": 0, "desc": ""}, "threat_level_trend":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 21, "x": 0, "desc": ""}, "alarm_level_pie":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 24, "x": 0, "desc": ""}, "web_attack_count":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 27, "x": 0, "desc": ""}, "top_attacksrc":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 30, "x": 0, "desc": ""}, "apt_hit_rank":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 33, "x": 0, "desc": ""}, "ids_alarm_count":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 36, "x": 0, "desc": ""}, "intranet_event_count":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 39, "x": 0, "desc": ""}, "alarm_accum":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 42, "x": 0, "desc": ""}, "alarm_attack_stage":
+    {"h": 3, "param": {"limit": 10}, "w": 2, "y": 45, "x": 0, "desc": ""},"victim_asset_pie":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 48, "x": 0, "desc": ""}, "victim_asset_trend":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 51, "x": 0, "desc": ""}, "host_total_count":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 54, "x": 0, "desc": ""}, "top_victimhost":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 57, "x": 0, "desc": ""}, "license_info":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 60, "x": 0, "desc": ""}, "server_info":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 63, "x": 0, "desc": ""}, "log_count":
+    {"h": 3, "param": {"limit": 10}, "w": 2, "y": 66, "x": 0, "desc": ""}, "cluster_state":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 69, "x": 0, "desc": ""}, "device_info":
+    {"h": 3, "param": {"limit": 10}, "w": 2, "y": 72, "x": 0, "desc": ""}, "rule_info":
+    {"h": 3, "param": {"limit": 0}, "w": 2, "y": 75, "x": 0, "desc": ""}}'
+  name: 综合报告
+  path: pre_compre.rptdesign
+  source: 1
+  type: 5
+
+- gid: 0
+  layout: '{"secure_service": {}}'
+  name: 威胁分析统计
+  path: daily_report.rptdesign
+  source: 1
+  type: 6
+
+- gid: 0
+  layout: '{"alarm_event": {}}'
+  name: 告警事件汇总统计
+  path: alarm_event_report.rptdesign
+  source: 1
+  type: 7
+
+- gid: 0
+  layout: '{"log_statistic": {}}'
+  name: 日志统计
+  path: log_statistic.rptdesign
+  source: 1
+  type: 8
+
+- gid: 0
+  layout: '{"alarm_asset": {}}'
+  name: 受害资产告警汇总统计
+  path: alarm_asset.rptdesign
+  source: 1
+  type: 10

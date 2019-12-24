@@ -1,0 +1,35 @@
+2019-09-29 19:01:37,032 - INFO - This is a info log.
+2019-09-29 19:01:37,033 - DEBUG - This is a debug log.
+2019-09-29 19:01:37,033 - WARNING - This is a warning log.
+2019-09-29 19:01:37,033 - ERROR - This is a error log.
+2019-09-29 19:01:37,033 - CRITICAL - This is a critical log.
+2019-09-29 19:02:00,716 - INFO - This is a info log.
+2019-09-29 19:02:00,716 - DEBUG - This is a debug log.
+2019-09-29 19:02:00,716 - WARNING - This is a warning log.
+2019-09-29 19:02:00,717 - ERROR - This is a error log.
+2019-09-29 19:02:00,717 - CRITICAL - This is a critical log.
+2019-09-29 19:13:09,593 - INFO - This is a info log.
+2019-09-29 19:13:09,593 - DEBUG - This is a debug log.
+2019-09-29 19:13:09,593 - WARNING - This is a warning log.
+2019-09-29 19:13:09,594 - ERROR - This is a error log.
+2019-09-29 19:13:09,594 - CRITICAL - This is a critical log.
+DATE_FORMAT - INFO - This is a info log.
+DATE_FORMAT - DEBUG - This is a debug log.
+DATE_FORMAT - WARNING - This is a warning log.
+DATE_FORMAT - ERROR - This is a error log.
+DATE_FORMAT - CRITICAL - This is a critical log.
+DATE_FORMAT - INFO - This is a info log.
+DATE_FORMAT - DEBUG - This is a debug log.
+DATE_FORMAT - WARNING - This is a warning log.
+DATE_FORMAT - ERROR - This is a error log.
+DATE_FORMAT - CRITICAL - This is a critical log.
+DATE_FORMAT - INFO - This is a info log.
+DATE_FORMAT - DEBUG - This is a debug log.
+DATE_FORMAT - WARNING - This is a warning log.
+DATE_FORMAT - ERROR - This is a error log.
+DATE_FORMAT - CRITICAL - This is a critical log.
+09/29/2019 19:19:44 PM - INFO - This is a info log.
+09/29/2019 19:19:44 PM - DEBUG - This is a debug log.
+09/29/2019 19:19:44 PM - WARNING - This is a warning log.
+09/29/2019 19:19:44 PM - ERROR - This is a error log.
+09/29/2019 19:19:44 PM - CRITICAL - This is a critical log.

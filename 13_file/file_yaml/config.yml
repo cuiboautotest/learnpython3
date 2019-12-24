@@ -1,0 +1,13 @@
+#字典
+name: Tom Smith
+age: 37
+spouse:
+    name: Jane Smith
+    age: 25
+
+#列表
+children:
+ - name: Jimmy Smith
+   age: 15
+ - name1: Jenny Smith
+   age1: 12

@@ -4,7 +4,7 @@ driver=webdriver.Chrome()
 driver.get('https://www.baidu.com')
 driver.maximize_window()
 driver.implicitly_wait(10)
-
+print(driver.title)
 
 try:
     driver.find_element_by_partial_link_text('主页').click()

@@ -1,0 +1,17 @@
+1.安装allure，添加到环境变量，cmd输入allure查看是否安装成功
+2.安装allure-pytest
+3.写test测试脚本
+4.先执行：pytest 脚本所在目录 结果存放目录
+如：pytest E:\python\python3\learnpython\pytest_test\test_demo4.py E:\python\python3\learnpython\pytest_test\result
+
+5.将执行结果生成allure报告,命令：
+allure generate  E:\python\python3\learnpython\pytest_test\result -o E:\python\python3\learnpython\pytest_test\allureport
+
+
+如果已存在报告，
+报错allureport for the report is already in use, add a '--clean' option to overwrite
+后面加上--clean
+allure generate E:\python\python3\learnpython\pytest_test\result -o E:\python\python3\learnpython\pytest_test\allure
+port --clean
+
+6.集成到jenkins

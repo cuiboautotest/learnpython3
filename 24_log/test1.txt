@@ -1,0 +1,9 @@
+cui bo is testing log module
+cui bo is testing log module
+cui bo is testing log module
+cui bo is testing log module
+cui bo is testing log module
+cui bo is testing log module
+2019-09-24 17:58:14,522 - my logger - INFO - 1111222333444
+cui bo is testing log module
+2019-09-24 17:58:58,657 - my logger - INFO - 1111222333444

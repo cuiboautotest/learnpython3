@@ -16,4 +16,4 @@ class TestDemo:
         #断言
         assert s==expected
 if __name__=='__main__':
-    main()
+    pytest.main('pytest_demo1')

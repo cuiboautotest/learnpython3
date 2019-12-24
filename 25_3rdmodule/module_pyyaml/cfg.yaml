@@ -1,0 +1,31 @@
+#yaml中的键值对也就是python中的字典
+nb1:
+  user:admin
+  psw:123456
+
+#列表
+list:
+- admin1:123456
+- admin2:111111
+- admin3:222222
+
+
+n1: 12.3
+n2: true
+n3: false
+n4: ~
+time1: 2019-10-24t9:00:00 10+08:00
+
+#字典嵌套list
+nub1:
+  - admin1
+  - '123456'
+
+nub2:
+  - admin2
+  - '111111'
+
+nub3:
+  - admin3
+  - '222222'
+

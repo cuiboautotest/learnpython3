@@ -1,0 +1,9 @@
+'''
+input
+'''
+number=input('请输出数字：')
+print(number)
+print(type(number))
+#print(number+10)
+print(int(number)+10)#整形相加
+print(str(10)+number)#字符串拼接
