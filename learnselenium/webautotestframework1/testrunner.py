@@ -1,5 +1,5 @@
 import unittest
-from HTMLTestRunner import HTMLTestRunner
+from dns.common.HTMLTestRunner import HTMLTestRunner
 import time
 import os
 

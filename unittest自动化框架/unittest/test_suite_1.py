@@ -2,7 +2,7 @@
 
 import unittest
 from test_mathfunc import TestMathFunc
-from HTMLTestRunner import HTMLTestRunner
+from dns.common.HTMLTestRunner import HTMLTestRunner
 
 if __name__ == '__main__':
     suite = unittest.TestSuite()
